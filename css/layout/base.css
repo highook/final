@@ -51,7 +51,7 @@ img {
   max-width: 100%;
 }
 .main-page-wrapper {
-  background: url("/img/AirAsia-MainPage/background1.png") center top no-repeat, url("/img/AirAsia-MainPage/background2.png") center bottom 20px no-repeat;
+  background: url("../../img/AirAsia-MainPage/background1.png") center top no-repeat, url("../../img/AirAsia-MainPage/background2.png") center bottom 20px no-repeat;
 }
 .container {
   margin: 0 auto;
