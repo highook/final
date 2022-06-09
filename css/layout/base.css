@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+
+}
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  background: #001821;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-ozx-font-smoothing: grayscale;  
+}
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.wrapper {
+  overflow: hidden;
+  min-width: 1141px;
+   display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.wrapper__content {
+  flex: 1;
+}
+a {
+  color: inherit;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+p {
+  margin-top: 0;
+}
+* {
+  box-sizing: border-box;
+} 
+img {
+  display: block;
+  max-width: 100%;
+}
+.main-page-wrapper {
+  background: url("/img/AirAsia-MainPage/background1.png") center top no-repeat, url("/img/AirAsia-MainPage/background2.png") center bottom 20px no-repeat;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1141px;
+  width: 95%;
+}

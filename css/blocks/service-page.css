@@ -1,0 +1,123 @@
+.header__service {
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+.top-line {
+  min-height: 412px;
+  background: url(/img/AirAsia-ServicePage/headline.png) center center no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 21px;
+}
+.top-line__container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+}
+.page__title {
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold
+}
+.breadcrumbc__list {
+  display: flex;
+  align-items: center;
+}
+.breadcrumbc__item--active {
+  font-weight: bold;
+}
+.breadcrumbc__item::after {
+content: "/";
+color: #9A9A9A;
+}
+.breadcrumbc__item:last-child::after {
+  display: none;
+}
+.breadcrumbc__link {
+  color: #9A9A9A;
+  font-size: 14px;
+}
+.page-content {
+  background: #fff;
+  color: #303030;
+  padding-top: 98px;
+}
+.service {
+display: flex;
+text-decoration: none;
+}
+.service:hover {
+  background: #F4F5F5;
+}
+.service:hover .btn {
+  background: #F5170E;
+  color: #fff;
+}
+.service__item {
+  margin-bottom: 49px;
+}
+.service__item:last-child {
+  margin-bottom: 64px;
+}
+.service__img {
+  width: 41%;
+  margin-right: 47px;
+}
+.service__content {
+  flex: 1;
+  padding-top: 9px;
+}
+.service__title {
+  font-size: 37px;
+  font-weight: bold;
+  margin-bottom: 28px;
+  color: #000;
+}
+.service__desc {
+  line-height: 1.7;
+  margin-bottom: 34px;
+}
+.inner-section {
+  padding: 27px;
+
+}
+.inner-section--bg--grey {
+  background: #F4F5F5;
+  min-height: 476px;
+}
+.inner-section__title {
+  color: #1A1B1E;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 99px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -33px;
+
+}
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners__item {
+  margin-left: 33px;
+  margin-bottom: 73px;
+  align-items: center;
+  display: flex;
+  filter: grayscale(100%);
+}
+.partners__item:hover {
+  filter: grayscale(0);
+  transition: 2s;
+}
+
+

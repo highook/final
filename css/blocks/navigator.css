@@ -1,0 +1,51 @@
+.navigator--index--bottom {
+  margin-bottom: 146px;
+}
+.navigator--service--bottom {
+  margin-bottom: 146px;
+}
+.navigator--reviews--bottom {
+  margin-bottom: 85px;
+}
+.navigator {
+  display: flex;
+  justify-content: center;
+   align-items: center;
+ }
+ .navigator__display {
+   margin-right: 30px;
+ }
+ .navigator__list {
+   display: flex;
+   align-items: center;
+ }
+ .navigator__item {
+   text-align: center;
+ }
+ .navigator__link {
+  display: block; 
+  position: relative;
+  width: 32px;
+ height: 32px;
+ border-radius: 50%;
+ text-decoration: none;
+ font-weight: bold;
+ line-height: 32px;
+ }
+ .navigator__item--active {
+   background: #fff;
+   color: #F5170E;
+   border-radius: 50%;
+ }
+ .navigator__item__service--active {
+  background: #F5170E;
+  color:  #fff;
+  border-radius: 50%;
+}
+ .navigator__link:hover {
+   background: #F5170E;
+   color: #fff;
+ }
+ .navigator__display__service {
+  font-weight: bold;
+ }

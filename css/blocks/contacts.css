@@ -1,0 +1,76 @@
+
+.contacts {
+  margin-top: 10px;
+  font-style: normal;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+.contacts__tel {
+  text-decoration: none;
+  font-size: 26px;
+
+}
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+}
+.contacts__text {
+  font-size: 11px;
+  line-height: 20px;
+  color: #9A9A9A;
+}
+.dropdown {
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+
+.dropdown__menu { 
+  	position: absolute; 
+    max-width: 400px; 
+  	border: 1px solid #CDD1D2; 
+    border-radius: 5px;
+    padding: 15px 19px;
+   	
+    background: #CDD1D2;
+      opacity: 0;
+      
+
+}
+.dropdown:hover .dropdown__menu {
+  opacity: 1;
+  top: 100px;
+  transition: 1s;
+}
+
+.dropdown__menu:before { 	
+  content: "";
+	position: absolute;
+ 	border-left: 10px solid rgba(113, 101, 58, 0);
+  border-right: 10px solid rgba(113, 101, 58, 0); 	
+  border-bottom: 10px solid #CDD1D2;
+  right: 44px; 
+  top: -10px;
+
+}
+.dropdown__menu:after { 	
+  content: ""; 	
+  position: absolute; 	
+  border-left: 10px solid rgba(255, 241, 190, 0); 	
+  border-right: 10px solid rgba(255, 241, 190, 0); 	
+  border-bottom: 10px solid #CDD1D2; 	
+  right: 44px; 	
+  top: -9px;
+}
+.dropdown__item {
+  font-size: 13px;
+  color: #1E1F20;
+  text-align: left;
+}
+.dropdown__item--bold {
+  font-weight: bold;
+}
