@@ -7,10 +7,10 @@
   content: "";
   width: 490px;
   height: 505px;  
-  background: url("/img/AirAsia-MainPage/gates.png") center center / cover no-repeat;
+  background: url("../../img/AirAsia-MainPage/gates.png") center center / cover no-repeat;
 }
 .about__desc {
-  background-image: url("/img/AirAsia-MainPage/mountains.png");
+  background-image: url("../../img/AirAsia-MainPage/mountains.png");
   width: 785px;
   height: 455px;
   padding: 68px 81px;

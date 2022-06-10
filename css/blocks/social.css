@@ -18,14 +18,14 @@ margin-right: 74px;
   margin-left: 0;
 }
 .social__item--icon--telegram  {
-  background-image: url("/img/social/telegram.png");
+  background-image: url("../../img/social/telegram.png");
 }
 .social__item--icon--vk {
-  background-image: url("/img/social/vk.png");
+  background-image: url("../../img/social/vk.png");
 }
 .social__item--icon--fb  {
-  background-image: url("/img/social/f.png");
+  background-image: url("../../img/social/f.png");
 }
 .social__item--icon--in {
-  background-image: url("/img/social/in.png");
+  background-image: url("../../img/social/in.png");
 }

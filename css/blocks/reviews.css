@@ -41,7 +41,7 @@
 }
 
 .review__user:after {
-  content: url("/img/reviews/vk-blue\ 1.png");
+  content: url("../../img/reviews/vk-blue\ 1.png");
   height: 30px;
   margin-left: 7px;
 }
@@ -86,7 +86,7 @@
   display: flex;
    align-items: center;
   background:#fff
-   url(/img/reviews/Rectangle.png) center center no-repeat;
+   url("../../img/reviews/Rectangle.png") center center no-repeat;
    margin-bottom: 37px;
   }
 .separator__content {

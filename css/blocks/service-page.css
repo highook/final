@@ -4,7 +4,7 @@
 }
 .top-line {
   min-height: 412px;
-  background: url(/img/AirAsia-ServicePage/headline.png) center center no-repeat;
+  background: url("../../img/AirAsia-ServicePage/headline.png") center center no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 21px;
